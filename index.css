@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root
+{
+
+   --color-white:#FFFFFF;
+   --color-black:#000;
+   
+   --color-grey:#2a2e35;
+   --color-grey-6:#12181b;
+    
+}
+
+.container{
+    min-height:100vh;
+    background-color:var(--color-grey);
+    padding: 25px;
+}
+
+.input_area{
+    padding: 30px;
+    border: 2px solid var(--color-grey-6);
+}
+
+input,textarea{
+    width: 100%;
+    background-color: var(--color-grey);
+    color: var(--color-white);
+    border: none;
+}
+
+.save_btn{
+    background-color: var(--color-grey);
+    color: var(--color-white);
+    padding: 5px 10px;
+    border: 1px solid var(--color-white);
+}
+
+.notes
+{
+    display: flex;
+    padding: 25px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.note{
+    width: 300px;
+    color: var(--color-white);
+    margin: 12px;
+    padding: 12px;
+    border: 1px solid var(--color-white);
+    background: var(--color-grey);
+}
+
+.deleteNote{
+    float: right;
+}
+.archiveNote{
+    float: right;
+    margin-right:6px;
+}
